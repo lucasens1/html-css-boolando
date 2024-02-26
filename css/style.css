@@ -143,7 +143,8 @@ img {
     margin: 10px 10px;
 }
 
-header ul{
+header ul,
+footer ul{
     list-style: none;
 }
 
@@ -152,3 +153,33 @@ header li{
     margin-right: 10px;
 }
 /*Fine header */
+
+.footer-cl{
+    min-height: 60px;
+    background-color: #1a1a1a;
+}
+
+.info,
+.contacts{
+    width: 50%;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.subtitle{
+    margin: 10px 20px;
+}
+
+.info li,
+.contacts li{
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.txt-l{
+    text-align: left;
+}
+
+.txt-r{
+    text-align: right;
+}
