@@ -39,6 +39,11 @@ img {
     
 }
 
+.designers{
+    font-size: 0.8rem;
+    display: block;
+}
+
 .d-none{
     display: none;
 }
