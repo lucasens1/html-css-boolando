@@ -98,3 +98,15 @@ img {
 .sustain{ 
     background-color: #008000;
 }
+
+/*hover image*/
+.ontop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.ontop:hover{
+    opacity: 1;
+}
