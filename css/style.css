@@ -13,10 +13,6 @@ img {
     width: 80%;
     flex-wrap: wrap;
     padding: 5px;
-
-    /*Debug*/
-    height: 700px;
-    background-color: cadetblue;
 }
 
 .flex{
@@ -27,23 +23,78 @@ img {
     width: calc(100% / 3);
     padding: 10px;
     
-    /*Debug*/
-    background-color: brown;
-    border: 1px solid black;
+    
 }
 .card{
     width: 100%;
     padding: 5px;
-    /* Debug */
-    background-color: blueviolet;
+    
     
 }
 
-.designers{
-    font-size: 0.8rem;
+.block{
     display: block;
 }
 
 .d-none{
     display: none;
+}
+
+.ref{
+    position: relative;
+}
+
+.abs{
+    position: absolute;
+}
+
+.designers{
+    font-size: 0.8rem;
+}
+
+.product-desc{
+    font-weight: 600;
+}
+
+.icon.abs{
+    top: 10px;
+    right: 0;
+    padding: 5px 8px;
+    font-size: 1.4rem;
+    color: black;
+    background-color: white;
+    z-index: 1;
+}
+
+.cost{
+    font-size: 0.8rem;
+}
+
+.cost.new{
+    color: red;
+    font-weight: 600;
+}
+
+.cost.old{
+    text-decoration: line-through;
+}
+
+.cont.abs{
+    bottom: 20px;
+}
+
+.sale,
+.sustain{
+    padding: 5px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: white;
+}
+
+.sale{
+    background-color: #ff0000;
+}
+
+.sustain{ 
+    background-color: #008000;
 }
