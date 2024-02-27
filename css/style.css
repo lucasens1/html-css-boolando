@@ -67,6 +67,11 @@ img {
     z-index: 1;
 }
 
+.icon:hover{
+    color: red;
+    cursor: pointer;
+}
+
 .cost{
     font-size: 0.8rem;
 }
